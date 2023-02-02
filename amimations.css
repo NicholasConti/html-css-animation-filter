@@ -90,6 +90,20 @@
 }
 /* ----------------------------------------- */
 /* ESERCIZIO 11 */
+.ex-11-icon:hover {
+    animation: spin34 2s linear ;
+}
+@keyframes spin34{
+    0% {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate (0deg);
+    }
+}
 /* ----------------------------------------- */
 /* ESERCIZIO 12 */
 /* ----------------------------------------- */
